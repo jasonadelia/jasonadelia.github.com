@@ -73,7 +73,7 @@ a {
 .section-heading{
     background: #E9E9E9;
     font-size: 3em;
-    padding: .3em 0;
+    padding: .3em;
     margin-bottom: 0.2083333333333333em;
 }
 
@@ -138,6 +138,7 @@ a {
     .section-heading{
         background:none;
         border-bottom: 2px solid #E9E9E9;
+        padding: .3em 0;
     }
     
     .section-content{
