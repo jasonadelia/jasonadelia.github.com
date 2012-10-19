@@ -120,6 +120,10 @@ a {
     display:block;
 }
 
+.download-link{
+	text-align:right;
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
@@ -317,7 +321,8 @@ a {
     .me{ font-size:5em; }
     .logo{width:120px;}
     
-    .print-only{ display:block; }
+    .print-only{ display:inline; }
+	.web-only{ display:none; }
     
 
 }
