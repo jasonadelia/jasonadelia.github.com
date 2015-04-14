@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?-igzcdw');
-	src:url('fonts/icomoon.eot?#iefix-igzcdw') format('embedded-opentype'),
-		url('fonts/icomoon.woff?-igzcdw') format('woff'),
-		url('fonts/icomoon.ttf?-igzcdw') format('truetype'),
-		url('fonts/icomoon.svg?-igzcdw#icomoon') format('svg');
+	src:url('fonts/icomoon.eot?-f6g7td');
+	src:url('fonts/icomoon.eot?#iefix-f6g7td') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-f6g7td') format('woff'),
+		url('fonts/icomoon.ttf?-f6g7td') format('truetype'),
+		url('fonts/icomoon.svg?-f6g7td#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -32,7 +32,23 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.icon-linearrow2:before {
+.icon-mountain:before {
+	content: "\1f4c8";
+}
+
+.icon-candlestick:before {
+	content: "\1f570";
+}
+
+.icon-highlow:before {
+	content: "\1f503";
+}
+
+.icon-drawline:before {
+	content: "\23bb";
+}
+
+.icon-drawarrow:before {
 	content: "\2197";
 }
 
@@ -44,28 +60,8 @@
 	content: "\25ad";
 }
 
-.icon-mountain:before {
-	content: "\1f4c8";
-}
-
-.icon-candlestick:before {
-	content: "\1f56f";
-}
-
-.icon-highlow:before {
-	content: "\1f503";
-}
-
-.icon-line:before {
-	content: "\23bb";
-}
-
-.icon-linearrow:before {
-	content: "\2192";
-}
-
 .icon-addcalendar:before {
-	content: "\1f4c6";
+	content: "\1f56f";
 }
 
 .icon-addlist:before {

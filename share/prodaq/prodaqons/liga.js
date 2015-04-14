@@ -25,15 +25,16 @@
 	var icons;
 	if (!supportsProperty('fontFeatureSettings')) {
 		icons = {
-			'linearrow2': '&#x2197;',
-			'drawcircle': '&#x2b2d;',
-			'drawrectangle': '&#x25ad;',
 			'mountain': '&#x1f4c8;',
-			'candlestick': '&#x1f56f;',
+			'candlestick': '&#x1f570;',
 			'highlow': '&#x1f503;',
 			'line': '&#x23bb;',
-			'linearrow': '&#x2192;',
-			'addcalendar': '&#x1f4c6;',
+			'drawline': '&#x23bb;',
+			'linearrow': '&#x2197;',
+			'drawarrow': '&#x2197;',
+			'drawcircle': '&#x2b2d;',
+			'drawrectangle': '&#x25ad;',
+			'addcalendar': '&#x1f56f;',
 			'addlist': '&#x2630;',
 			'calendar': '&#x1f4c5;',
 			'contactcard': '&#x1f4b3;',
