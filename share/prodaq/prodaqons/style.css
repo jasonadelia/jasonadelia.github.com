@@ -100,3 +100,8 @@
 	content: "\27f2";
 }
 
+.icon-attr:before{
+	content: attr(data-icon);
+}
+}
+
