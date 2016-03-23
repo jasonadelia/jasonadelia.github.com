@@ -54,7 +54,7 @@
 			});
 			
 			var r = new XMLHttpRequest();
-			r.open("POST", "uivsux.php", true);
+			r.open("POST", "http://prodaqo.mx/uivsux.php", true);
 			r.onreadystatechange = function () {
 				if (r.readyState != 4 || r.status != 200) return;
 				document.getElementById("container").innerHTML += r.responseText;
