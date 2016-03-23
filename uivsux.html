@@ -1,0 +1,27 @@
+<html>
+	<body>
+		<script>
+			var data;
+			var request = new XMLHttpRequest();
+			var myUrl = 'https://api.flickr.com/services/feeds/photos_public.gne?format=json&tags=puppet,cat,horse,cartoon,fight&tagmode=any'
+			request.open('GET', myUrl, true);
+
+			request.onload = function() {
+			if (request.status >= 200 && request.status < 400) {
+				// Success!
+				data = JSON.parse(request.responseText);
+			} else {
+				// We reached our target server, but it returned an error
+
+			}
+			};
+
+			request.onerror = function() {
+			// There was a connection error of some sort
+			};
+
+			request.send();
+			console.log(data);
+		</script>
+	</body>
+</html>
