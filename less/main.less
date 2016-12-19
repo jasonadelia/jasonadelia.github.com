@@ -1,0 +1,96 @@
+@import "node_modules/normalize.less/normalize.less";
+@import "partials/mixins.less";
+@import "partials/variables.less";
+
+body {
+	background-color: @mainBackground;
+	color: @copyText;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.75;
+
+	margin: 4em auto;
+	width: 90%;
+	max-width: @maxWidth;
+}
+
+h1 {
+	color: @headingText;
+	font-family: 'Raleway', sans-serif;
+	font-size: 3.2em;
+	font-weight: 300;
+	line-height: normal;
+	margin: 0;
+	text-transform: uppercase;
+
+	b {
+		font-weight: 700;
+	}
+}
+
+h2 {
+	font-size: 1.2em;
+	font-weight: 400;
+	line-height: normal;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+a {
+	color: @linkText;
+	text-decoration: none;
+	font-style: italic;
+
+	&:visited {
+		color: @linkVisited;
+	}
+	&:hover {
+		color: @linkHovered;
+	}
+}
+
+.main-header {
+	border-bottom: 3px solid @headerBorder;
+	padding-bottom: .5em;
+	position: relative;
+	text-align: center;
+}
+
+.bio-pic {
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+
+	height: 5.4em;
+	border-radius: 1em 0.5em;
+
+}
+
+.social-links {
+	list-style: none;
+	padding: 0;
+	.clearfix;
+	li {
+		float: left;
+		width: 25%;
+	}
+	a {
+		display: inline-block;
+	}
+	svg {
+		height: 3em;
+		width: 100%;
+	}
+	use {
+		fill: @copyText;
+	}
+}
+
+@media (min-width: @breakpoint) {
+	.main-header {
+		text-align: left;
+	}
+	.bio-pic {
+		display: block;
+	}
+}
