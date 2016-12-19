@@ -1,141 +1,227 @@
-<!DOCTYPE html>
-<html class="no-js">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Jason Delia - UX Engineer</title>
-		
-		<link rel="shortcut icon" href="/favicon.png">
-		
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta charset=utf-8>
+		<title>title</title>
 
-        <link rel="stylesheet" href="css/reset.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Six+Caps" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="css/main.css">
+		<!--[if lt IE 9]> HTML5Shiv
+			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:300,700" rel="stylesheet">
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			body {
+				color: #4d4d4d;
+				font-family: 'Open Sans', sans-serif;
+				font-size: 10pt;
+				/*background: gray;*/
+			}
+			.resume {
 
-        <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
-    </head>
-    <body>
+				background: white;
+				width: 8.5in;
+				height: 11in;
+				margin: 0 auto;
+				overflow: hidden;
+			}
+			h1 {
+				color: #212121;
+				font-family: 'Raleway', sans-serif;
+				font-size: 3.2em;
+				font-weight: 300;
+				text-transform: uppercase;
+			}
 
-        <div class="header-container">
-            <header class="wrapper cf">
-                <div class="pos-b">
-                    <img class="logo" src="img/jd.png" alt=""/>
-                </div>
-                <div class="pos-a">
-                    <h1 class="me">Jason Delia</h1>
-                    <p class="title">UX Engineer</p>
-                </div>
-                <p class="blurb">I am an experienced web developer with more than 10 years in the industry. I understand the importance of adhering to web standards and believe that code and design are equally important and should work together to create visually exciting and functional apps and websites.</p>
-            </header>
-        </div>
+			.first {
+				font-weight: 700;
+			}
 
-        <div class="main wrapper cf">
-            <div class="pos-a">
-                <section>
-                    <h1 class="section-heading">Experience</h1>
-                    <div class="section-content">
-                        <section class="sub-section">
-                            <h1 class="focus">Senior UX Engineer</h1>
-                            <p class="org">Thomson Reuters</p>
-                            <p class="time-frame">March 2010 - Present</p>
-                            <p class="description">Building product prototypes and assisting development teams in implementation.  Working with product owners to conceptualize new products and features through interaction and visual design.</p>
-                        </section>
-                        <section class="sub-section">
-                            <h1 class="focus">Senior Web Developer</h1>
-                            <p class="org">Thomson Reuters</p>
-                            <p class="time-frame">June 2005 - March 2010</p>
-                            <p class="description">Front-end web developer working on an ASP.NET code base.  Building master pages and reusable controls.  Working in the middle tier and database when necessary.</p>
-                        </section>
-                        <section class="sub-section">
-                            <h1 class="focus">Site Developer</h1>
-                            <p class="org">Thomson Financial</p>
-                            <p class="time-frame">June 2004 - June 2005</p>
-                        </section>
-                        <section class="sub-section">
-                            <h1 class="focus">Producer, Webcasting Services</h1>
-                            <p class="org">Thomson Financial</p>
-                            <p class="time-frame">2002 - June 2004</p>
-                        </section>
-                    </div>
-                </section>
-                <section>
-                    <h1 class="section-heading">Education</h1>
-                    <div class="section-content">
-                        <section class="sub-section">
-                            <h1 class="focus">Masters in Business Administration: <i class="concentration">Concentration in Project Management</i></h1>
-                            <p class="org">New York Institute of Technology</p>
-                            <p class="time-frame">2008</p>
-                            <p class="description">Summa Cum Laude</p>
-                            <p class="description">Delta Mu Delta International Honor Society in Business Administration Candidate</p>
-                        </section>                 
-                        <section class="sub-section">
-                            <h1 class="focus">B.S. in Business Administration: <i class="concentration">Concentration in Management Information Systems</i></h1>
-                            <p class="org">Seton Hall University</p>
-                            <p class="time-frame">2002</p>
-                            <p class="description">Magna Cum Laude</p>
-                        </section>                 
-                    </div>
-                </section>
-            </div>
-            <div class="pos-b">
-                <section>
-                    <h1 class="section-heading">Skills</h1>
-                    <div class="section-content">
-                        <ol class="tag-cloud">
-                            <li class="tag lvl-b">AJAX</li>
-                            <li class="tag lvl-c">ASP.NET</li>
-                            <li class="tag lvl-a">CSS3</li>
-                            <li class="tag">Fireworks</li>
-                            <li class="tag">Git</li>
-                            <li class="tag lvl-a">HTML5</li>
-                            <li class="tag">IxD</li>
-                            <li class="tag lvl-a">JQuery</li>
-                            <li class="tag lvl-b">Javascript</li>
-                            <li class="tag lvl-b">JSON</li>
-                            <li class="tag lvl-c">Photoshop</li>
-                            <li class="tag">PHP</li>
-                            <li class="tag lvl-a"><abbr title="Responsive Web Design">RWD</abbr></li>
-                            <li class="tag">SQL</li>
-                            <li class="tag lvl-c">SVN</li>                        
-                            <li class="tag lvl-a">Web Standards</li>
-                            <li class="tag">Visual Design</li>
-                            <li class="tag lvl-d">XSLT</li>
-                        </ol>
-                    </div>
-                </section>
-                <section>
-                    <h1 class="section-heading">Contact</h1>
-                    <div class="section-content">
+			h2 {
+				color: #4d4d4d;
+				font-size: 1.2em;
+				font-weight: 400;
+				text-transform: uppercase;
+			}
+
+			header {
+				border-bottom: 3px solid #212121;
+				margin-bottom: 25px;
+			}
+
+			section + section {
+				margin-top: 4em;
+			}
+
+			section > section + section {
+				margin-top: 2em;
+			}
+
+			section h1 {
+				font-size: 1.2em;
+				font-weight: 700;
+				line-height: 1.8;
+				position: relative;
+				margin-bottom: 1em;
+			}
+			section h1:after {
+				content: '';
+				height: 3px;
+				width: 40px;
+				background-color: #212121;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+			}
+
+			section h2 {
+				color: #212121;
+				font-size: 1em;
+				font-weight: 700;
+				text-transform: none;
+				margin-bottom: .5em;
+			}
+
+			.left, .main {
+				float: left;
+			}
+
+			.left {
+				margin-right: 4%;
+				width: 26%;
+			}
+			.main {
+				width: 70%;
+			}
+
+			ul {
+				margin-left: 3em;
+				margin-top: 1em;
+			}
+
+			li + li {
+				margin-top: .5em;
+			}
+
+			.timeframe {
+				float: right;
+			}
+
+			strong {
+				color: #212121;
+			}
+
+			.community-list, .contact-list {
+				margin-left: 0;
+				list-style: none;
+			}
+
+			.community-list li + li {
+				margin-top: 1em;
+			}
+
+			img {
+				width: 2em;
+				vertical-align: middle;
+				margin-right: 1.5em;
+			}
+
+		</style>
+
+	</head>
+	<body>
+		<div class="resume">
+			<header>
+				<h1><span class="first">Jason</span> Delia</h1>
+				<h2>Product Designer & Front End Developer</h2>
+			</header>
+			<div class="left">
+				<section>
+					<h1>Bio</h1>
+					Experienced product designer & front end developer with MBA. Designs user-centric solutions to deliver best-in-class web applications.
+				</section>
+				<section>
+					<h1>Skills</h1>
+					HTML · CSS · JS · Responsive design · Git · Grunt · CSS Preprocessors · Iterative design process · Adobe Creative Suite · Strategy · User research · Management
+				</section>
+				<section>
+					<h1>Education</h1>
+					<section>
+						<h2>MBA</h2>
+						New York Institute of Technology
+					</section>
+					<section>
+						<h2>BS, Business Administration</h2>
+						Seton Hall University
+					</section>
+				</section>
+				<section>
+					<h1>Contact</h1>
+					<ul class="contact-list">
+						<li><img src="resume_icons/email.png">jasonadelia@gmail.com</li>
+						<li><img src="resume_icons/phone.png">631.949.5979</li>
+						<li><img src="resume_icons/twitter.png">@jasonadelia</li>
+						<li><img src="resume_icons/web.png">jasondelia.com</li>
+						<li><img src="resume_icons/linkedin.png">/jasonadelia</li>
+					</ul>
+				</section>
+			</div>
+			<div class="main">
+				<section>
+					<h1>Experience</h1>
+					<section>
+						<div class="timeframe">Nasdaq&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2013 - 2016</div>
+						<h2>Senior Product Designer</h2>
+						Serve as the product design team’s technical director. Design and develop high fidelity prototypes for Nasdaq’s $100MM+ product suite of web applications for IR, corporate communications and board governance professionals.
 						<ul>
-							<li><a href="mailto:jasonadelia@gmail.com">jasonadelia@gmail.com</a></li>
-							<li>631.949.5979</li>
-							<li class="social-links"><a href="http://twitter.com/jasonadelia/" target="_blank"><img src="img/twitter-bird-light-bgs.png" alt="@jasonadelia"/></a></li>
-							<li class="social-links"><a href="http://www.linkedin.com/in/jasonadelia" target="_blank"><img src="img/LinkedIn_IN_Icon_25px.png" alt="LinkedIn"/></a></li>
+							<li>Lead the creation of style guides and a pattern library for teams across the organization</li>
+							<li>Establish coding standards, guidelines and develop frameworks to enable rapid prototyping</li>
+							<li>Participate in user research, discovery interviews, and usability testing</li>
+							<li>Analyze research to identify opportunities to innovate</li>
+							<li>Build expansive prototypes using HTML, CSS and JS</li>
+							<li>Design interaction work patented by Nasdaq (US D764,543)</li>
 						</ul>
-                    </div>
-                </section>
-                <section>
-                    <h1 class="section-heading">Work Samples</h1>
-                    <div class="section-content">
-                        <p>Samples of work available upon request.</p>
-						<p>View latest CSS experiments on <a href="http://codepen.io/jasonadelia" target="_blank">codepen</a>.</p>
-                        <p>View this resume <span class="web-only">on a mobile device</span><span class="print-only">in a web browser</span> for the fully responsive experience <span class="print-only">(http://jasonadelia.github.com)</span></p>
-                    </div>
-                </section>
-            </div>
-        </div> <!-- #main -->
-		
-		<div class="wrapper download-link web-only"><a href="pdf/jasondelia.pdf">Download as PDF</a></div>
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
-        <script>
-            $('.section-heading').on('click',function(e){
-                $(this).parent().toggleClass('expanded')
-            });
-        </script>
-    </body>
+					</section>
+					<section>
+						<div class="timeframe">Thomson Reuters&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2005 - 2013</div>
+						<h2>Senior Web Developer</h2>
+						Build and maintain Thomson Reuters’ Investor Relations hosting platform. Responsible for front end development using ASP.NET, HTML, JS, and CSS.
+						<ul>
+							<li>Develop reusable front end components that power investor relations websites for Fortune 500 companies</li>
+							<li>Contribute to middle tier and database development</li>
+							<li>Write and unit test code for new products and bug fixes</li>
+							<li>Write and review technical specifications</li>
+						</ul>
+					</section>
+					<section>
+						<div class="timeframe">Thomson Financial&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2002 - 2005</div>
+						<h2>Website Developer</h2>
+						Work closely with product managers to build investor relations websites for clients.
+						<ul>
+							<li>Develop and document well-designed and easily maintainable websites using HTML, JS, CSS and other web technologies</li>
+							<li>Provide support and knowledge sharing with other site building teams and account managers</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<h1>Community</h1>
+					<ul class="community-list">
+						<li><strong>Founder & Mentor</strong>, CoderDojo Metuchen, 2015 - Present</li>
+						<li><strong>Head of Communications & Street Smart NJ Project Lead</strong>, Metuchen Traffic and Transportation Advisory Committee, 2015 - Present</li>
+						<li><strong>Web Designer & Developer</strong>, Metuchen Farmers Market, 2014 - Present</li>
+						<li><strong>Speaker</strong>, Nasdaq // Fullstaq, NYC UXPA, February 2016</li>
+						<li><strong>Speaker</strong>, Designing with Web Components, Pro/Design, January 2015</li>
+					</ul>
+					
+				</section>
+			</div>
+		</div>
+	</body>
 </html>
