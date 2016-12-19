@@ -1,0 +1,24 @@
+{
+  "name": "jasondelia.com",
+  "version": "1.0.0",
+  "description": "Homepage CV",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jasonadelia/jasonadelia.github.com.git"
+  },
+  "author": "Jason Delia",
+  "license": "LicenseRed-README.md",
+  "private": false,
+  "main": "Gruntfile.js",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-less": "^1.1.0",
+    "grunt-contrib-watch": "~0.6.0",
+    "less-plugin-autoprefix": "^1.5.1"
+  },
+  "dependencies": {
+    "normalize.less": "^1.0.0",
+    "svgxuse": "^1.1.23"
+  }
+}
