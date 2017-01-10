@@ -86,11 +86,60 @@ a {
 	}
 }
 
+.selected-projects {
+	section {
+		display: inline-block;
+		margin-bottom: 1em;
+	}
+	img {
+		width: 100%;
+	}
+	.main-header { 
+		margin-bottom: 1em;
+	}
+}
+
+.screenshots {
+	padding: 0;
+	img {
+		width: 100%;
+	}
+	li {
+		list-style: none;
+	}
+	li + li {
+		margin-bottom: 1em;
+	}
+}
+
 @media (min-width: @breakpoint) {
 	.main-header {
 		text-align: left;
 	}
 	.bio-pic {
 		display: block;
+	}
+	.selected-projects {
+		section {
+			width: 48%;
+
+			&:nth-child(even) {
+				margin-left: 2%;
+			}
+		}
+	}
+	.screenshots {
+		padding: 0;
+		img {
+			width: 100%;
+		}
+		li {
+			width: 32%;
+			float: left;
+		}
+		li + li {
+			margin-left: 1%;
+			margin-bottom: 0;
+		}
 	}
 }
