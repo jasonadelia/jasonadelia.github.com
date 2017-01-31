@@ -1,0 +1,59 @@
+JASON DELIA
+PRODUCT DESIGNER & FRONT END DEVELOPER
+----------
+
+BIO
+-----
+Experienced product designer & front end developer with MBA. Designs user-centric solutions to deliver best-in-class web applications.
+
+SKILLS
+-----
+HTML · CSS · JS · Responsive design · Git · Grunt · CSS Preprocessors · Iterative design process · Adobe Creative Suite · Strategy · User research · Management
+
+EDUCATION
+-----
+MBA - New York Institute of Technology
+BS, Business Administration - Seton Hall University
+
+EXPERIENCE
+-----
+Nasdaq     2013 - 2016
+Senior Product Designer
+Serve as the product design team’s technical director. Design and develop high fidelity prototypes for Nasdaq’s $100MM+ product suite of web applications for IR, corporate communications and board governance professionals.
+- Lead the creation of style guides and a pattern library for teams across the organization
+- Establish coding standards, guidelines and develop frameworks to enable rapid prototyping
+- Participate in user research, discovery interviews, and usability testing
+- Analyze research to identify opportunities to innovate
+- Build expansive prototypes using HTML, CSS and JS
+- Design interaction work patented by Nasdaq (US D764,543)
+
+Thomson Reuters     2005 - 2013
+Senior Web Developer
+Build and maintain Thomson Reuters’ Investor Relations hosting platform. Responsible for front end development using ASP.NET, HTML, JS, and CSS.
+- Develop reusable front end components that power investor relations websites for Fortune 500 companies
+- Contribute to middle tier and database development
+- Write and unit test code for new products and bug fixes
+- Write and review technical specifications
+
+Thomson Financial     2002 - 2005
+Website Developer
+Work closely with product managers to build investor relations websites for clients.
+- Develop and document well-designed and easily maintainable websites using HTML, JS, CSS and other web technologies
+- Provide support and knowledge sharing with other site building teams and account managers
+
+COMMUNITY
+-----
+Founder & Mentor, CoderDojo Metuchen, 2015 - Present
+Head of Communications & Street Smart NJ Project Lead, Metuchen Traffic and Transportation Advisory Committee, 2015 - Present
+Web Designer & Developer, Metuchen Farmers Market, 2014 - Present
+Speaker, Nasdaq // Fullstaq, NYC UXPA, February 2016
+Speaker, Designing with Web Components, Pro/Design, January 2015
+
+CONTACT
+-----
+jasonadelia@gmail.com
+631.949.5979
+twitter.com/jasonadelia
+jasondelia.com
+github.com/jasonadelia
+linkedin.com/in/jasonadelia
