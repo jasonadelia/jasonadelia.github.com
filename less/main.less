@@ -50,6 +50,7 @@ a {
 
 .main-header {
 	border-bottom: 3px solid @headerBorder;
+	margin-bottom: 1em;
 	padding-bottom: .5em;
 	position: relative;
 	text-align: center;
@@ -94,9 +95,6 @@ a {
 	img {
 		width: 100%;
 	}
-	.main-header { 
-		margin-bottom: 1em;
-	}
 }
 
 .screenshots {
@@ -104,12 +102,23 @@ a {
 	img {
 		width: 100%;
 	}
+
 	li {
 		list-style: none;
 	}
+
 	li + li {
 		margin-bottom: 1em;
 	}
+
+	figure {
+		margin: 0 0 1em 0;
+	}
+}
+
+.hi-res-link {
+	display: block;
+	text-align: right;
 }
 
 @media (min-width: @breakpoint) {
@@ -138,7 +147,7 @@ a {
 			float: left;
 		}
 		li + li {
-			margin-left: 1%;
+			margin-left: 2%;
 			margin-bottom: 0;
 		}
 	}
