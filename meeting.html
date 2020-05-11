@@ -16,6 +16,9 @@
 
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:300,700" rel="stylesheet">
         <link rel="stylesheet" href="css/main.min.css">
+        <style>
+            h3 { font-size: 1em !important; }
+        </style>
         <base target="_blank"></base>
     </head>
     <body class="council">
@@ -24,12 +27,29 @@
         </header>
         <p>This meeting is open to the public. During the course of the meeting, members of the public will be given the opportunity to provide comments. Members of the public who would like to attend and/or to participate can call into the number below and then utilize this ID provided.</p>
         <div class="dialin-info">
-            <h2>929-205-6099</h2>
-            <h3>Meeting ID: 849 2327 1722</h3>
-            <h3>Password: 657863</h3>
+            <h2 id="number">929-205-6099</h2>
+            <h3>Meeting ID: <strong id="id"></strong></h3>
+            <h3>Password: <strong id="password"></strong></h3>
         </div>
 
         <script src="js/main.js"></script>
+        
+        <script>
+            document.location.search.split("?")[1].split("&").forEach(pair => {
+                const [key,val]=pair.split("=");
+                let formattedValue = "";
+                let passedValue = val;
+                
+                while(passedValue.length > 5) {
+                    formattedValue += passedValue.substring(0,3) = " ";
+                    passedValue = passedValue.substring(3)
+                }
+                formattedValue += passedValue;
+
+                const el = document.getElementById(key) || {};
+                el.innerText = formattedValue;
+            })
+        </script>
 
         <!-- Google Analytics -->
         <script>
